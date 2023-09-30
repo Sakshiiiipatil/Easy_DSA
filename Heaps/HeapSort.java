@@ -57,3 +57,24 @@ public class HeapSort {
  * Output:
  * 2 3 4 5 7 8 65
  */
+
+/*heapSort method:
+
+The heapSort method takes an integer array arr as input and sorts it in ascending order using the Heap Sort algorithm.
+The algorithm consists of two main steps:
+Step 1: Build a max heap from the given array.
+Step 2: Repeatedly extract the maximum element (located at the root of the heap) and place it at the end of the array, reducing the heap size, and then heapify the remaining elements.
+heapify method:
+
+The heapify method is used to maintain the max heap property.
+It takes as input the array arr, the current index i, and the size of the heap size.
+The method compares the element at index i with its left and right children (if they exist), and if any child is greater than the current element, it swaps them.
+This process continues recursively to ensure that the largest element "bubbles up" to the root of the subtree rooted at index i.
+main method:
+
+In the main method, an example integer array arr is defined with unsorted values.
+The heapSort method is called to sort the array.
+After sorting, the program prints the sorted array, resulting in the elements being displayed in ascending order.
+Output:
+
+The sorted array is printed as the final output, demonstrating the sorted result using the Heap Sort algorithm.*/
